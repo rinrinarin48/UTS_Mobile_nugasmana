@@ -1,0 +1,522 @@
+[
+  {
+    "id": "c001",
+    "nama": "Semusim Cafe",
+    "area": "Ketawanggede",
+    "kampusTerdekat": [
+      "UB",
+      "UIN",
+      "UNISMA"
+    ],
+    "alamat": "Jl. MT Haryono No. 110, Ketawanggede, Lowokwaru, Kota Malang",
+    "jamBuka": "10.00 - 00.00",
+    "buka24Jam": false,
+    "hargaMin": 15000,
+    "hargaMax": 35000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "Mushola",
+      "Outdoor",
+      "Toilet"
+    ],
+    "skorNugas": 9,
+    "deskripsi": "Menggabungkan kedai kopi dengan ruang kerja bersama. Tersedia ruang coworking khusus, meja besar, banyak colokan, dan mushola.",
+    "sumber": "https://erctrans.com/tempat-nugas-di-malang/",
+    "gambar": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800"
+  },
+  {
+    "id": "c002",
+    "nama": "UB Coffee - Coffee & Eatery",
+    "area": "Ketawanggede",
+    "kampusTerdekat": [
+      "UB",
+      "UNISMA"
+    ],
+    "alamat": "Jl. MT Haryono No. 169, Ketawanggede, Lowokwaru, Kota Malang",
+    "jamBuka": "09.00 - 22.00",
+    "buka24Jam": false,
+    "hargaMin": 18000,
+    "hargaMax": 40000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "AC",
+      "Parkir Luas",
+      "Toilet"
+    ],
+    "skorNugas": 8,
+    "deskripsi": "Berada tepat di koridor kampus UB. Menyediakan ruang pertemuan yang dapat dipakai untuk diskusi kelompok.",
+    "sumber": "https://kanal24.co.id/5-cafe-dekat-ub-malang-untuk-nugas/",
+    "gambar": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800"
+  },
+  {
+    "id": "c003",
+    "nama": "Ruang Rindu Kopi",
+    "area": "Dinoyo",
+    "kampusTerdekat": [
+      "UB",
+      "UIN",
+      "UNISMA"
+    ],
+    "alamat": "Jl. MT Haryono No. 17C, Dinoyo, Lowokwaru, Kota Malang",
+    "jamBuka": "10.00 - 00.00",
+    "buka24Jam": false,
+    "hargaMin": 13000,
+    "hargaMax": 30000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "Toilet",
+      "Outdoor"
+    ],
+    "skorNugas": 8,
+    "deskripsi": "Ruangannya luas dengan banyak titik colokan. Buka sampai tengah malam, cocok untuk mengerjakan tugas hingga larut.",
+    "sumber": "https://erctrans.com/tempat-nugas-di-malang/",
+    "gambar": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800"
+  },
+  {
+    "id": "c004",
+    "nama": "And Coffee Space",
+    "area": "Klojen",
+    "kampusTerdekat": [
+      "UM",
+      "UB",
+      "Poltekkes"
+    ],
+    "alamat": "Jl. Jakarta No. 34, Penanggungan, Klojen, Kota Malang",
+    "jamBuka": "10.00 - 22.00",
+    "buka24Jam": false,
+    "hargaMin": 16000,
+    "hargaMax": 36000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "AC",
+      "Outdoor",
+      "Toilet"
+    ],
+    "skorNugas": 8,
+    "deskripsi": "Memiliki area indoor ber-AC dan area outdoor. WiFi dan colokan tersedia di kedua area.",
+    "sumber": "https://kanal24.co.id/5-cafe-dekat-ub-malang-untuk-nugas/",
+    "gambar": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800"
+  },
+  {
+    "id": "c005",
+    "nama": "Handall Cafe",
+    "area": "Jatimulyo",
+    "kampusTerdekat": [
+      "UB"
+    ],
+    "alamat": "Jl. Semanggi Timur No. 7, Jatimulyo, Lowokwaru, Kota Malang",
+    "jamBuka": "06.00 - 22.00",
+    "buka24Jam": false,
+    "hargaMin": 12000,
+    "hargaMax": 28000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "Outdoor",
+      "Toilet"
+    ],
+    "skorNugas": 7,
+    "deskripsi": "Buka paling pagi di daftar ini, sejak pukul enam. Tersedia area indoor dan outdoor. Tutup pada hari Minggu.",
+    "sumber": "https://kanal24.co.id/5-cafe-dekat-ub-malang-untuk-nugas/",
+    "gambar": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800"
+  },
+  {
+    "id": "c006",
+    "nama": "Tjakap",
+    "area": "Mojolangu",
+    "kampusTerdekat": [
+      "UB",
+      "BINUS"
+    ],
+    "alamat": "Jl. Candi Trowulan No. 44B, Mojolangu, Lowokwaru, Kota Malang",
+    "jamBuka": "16.00 - 01.00",
+    "buka24Jam": false,
+    "hargaMin": 14000,
+    "hargaMax": 32000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "Outdoor",
+      "Toilet",
+      "Smoking Area"
+    ],
+    "skorNugas": 8,
+    "deskripsi": "Baru buka sore hari dan tutup pukul satu dini hari. Pilihan untuk yang terbiasa mengerjakan tugas pada malam hari.",
+    "sumber": "https://kanal24.co.id/5-cafe-dekat-ub-malang-untuk-nugas/",
+    "gambar": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800"
+  },
+  {
+    "id": "c007",
+    "nama": "Nowhere Cafe UM",
+    "area": "Sumbersari",
+    "kampusTerdekat": [
+      "UM",
+      "UB"
+    ],
+    "alamat": "Jl. Veteran, Sumbersari, Lowokwaru, Kota Malang",
+    "jamBuka": "08.30 - 00.00",
+    "buka24Jam": false,
+    "hargaMin": 12000,
+    "hargaMax": 27000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "AC",
+      "Toilet"
+    ],
+    "skorNugas": 9,
+    "deskripsi": "Favorit mahasiswa UM. WiFi-nya tergolong cepat dan colokan tersedia di banyak titik.",
+    "sumber": "https://tugumalang.id/7-kafe-dekat-kampus-um-malang-yang-nyaman/",
+    "gambar": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=800"
+  },
+  {
+    "id": "c008",
+    "nama": "Warkop Kidang Djaja",
+    "area": "Sumbersari",
+    "kampusTerdekat": [
+      "UM",
+      "UB"
+    ],
+    "alamat": "Jl. Surakarta, Sumbersari, Lowokwaru, Kota Malang",
+    "jamBuka": "07.00 - 23.30",
+    "buka24Jam": false,
+    "hargaMin": 8000,
+    "hargaMax": 18000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "Outdoor",
+      "Toilet"
+    ],
+    "skorNugas": 8,
+    "deskripsi": "Warung kopi sederhana dengan harga paling murah. Menyediakan kopi dan gorengan, ramai sejak pagi.",
+    "sumber": "https://tugumalang.id/7-kafe-dekat-kampus-um-malang-yang-nyaman/",
+    "gambar": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=800"
+  },
+  {
+    "id": "c009",
+    "nama": "Kafe Pustaka",
+    "area": "Sumbersari",
+    "kampusTerdekat": [
+      "UM"
+    ],
+    "alamat": "Jl. Pekalongan No. 1, Sumbersari, Kota Malang",
+    "jamBuka": "08.00 - 22.30",
+    "buka24Jam": false,
+    "hargaMin": 10000,
+    "hargaMax": 24000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "AC",
+      "Toilet"
+    ],
+    "skorNugas": 8,
+    "deskripsi": "Berada dekat Gerbang Semarang UM dan berkonsep perpustakaan. Suasananya tenang untuk membaca dan menulis.",
+    "sumber": "https://tugumalang.id/7-kafe-dekat-kampus-um-malang-yang-nyaman/",
+    "gambar": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=800"
+  },
+  {
+    "id": "c010",
+    "nama": "Gang 7 Coffee & Eatery",
+    "area": "Sumbersari",
+    "kampusTerdekat": [
+      "UB",
+      "Polinema"
+    ],
+    "alamat": "Jl. Sumbersari Gang 7 No. 45, Sumbersari, Kota Malang",
+    "jamBuka": "14.00 - 22.00",
+    "buka24Jam": false,
+    "hargaMin": 8000,
+    "hargaMax": 20000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "Outdoor",
+      "Toilet"
+    ],
+    "skorNugas": 7,
+    "deskripsi": "Harga menu mulai dari delapan ribu rupiah. Berada di gang indekos mahasiswa, buka mulai siang hari.",
+    "sumber": "https://tugumalang.id/7-kafe-dekat-kampus-um-malang-yang-nyaman/",
+    "gambar": "https://images.unsplash.com/photo-1559496417-e7f25cb247f3?w=800"
+  },
+  {
+    "id": "c011",
+    "nama": "Nakoa Cafe Bondowoso",
+    "area": "Gadingkasri",
+    "kampusTerdekat": [
+      "UM",
+      "Poltekkes"
+    ],
+    "alamat": "Jl. Bondowoso No. 14, Gadingkasri, Klojen, Kota Malang",
+    "jamBuka": "08.30 - 00.00",
+    "buka24Jam": false,
+    "hargaMin": 13000,
+    "hargaMax": 29000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "AC",
+      "Toilet"
+    ],
+    "skorNugas": 9,
+    "deskripsi": "Colokan tersedia di setiap meja. Dekat kawasan Ijen, cocok untuk mahasiswa kesehatan dan kependidikan.",
+    "sumber": "https://tugumalang.id/7-kafe-dekat-kampus-um-malang-yang-nyaman/",
+    "gambar": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800"
+  },
+  {
+    "id": "c012",
+    "nama": "Roketto Coffee & Co",
+    "area": "Jatimulyo",
+    "kampusTerdekat": [
+      "UB",
+      "BINUS"
+    ],
+    "alamat": "Jl. Kendalsari No. 6, Jatimulyo, Lowokwaru, Kota Malang",
+    "jamBuka": "08.00 - 00.00",
+    "buka24Jam": false,
+    "hargaMin": 15000,
+    "hargaMax": 33000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "AC",
+      "Parkir Luas",
+      "Toilet"
+    ],
+    "skorNugas": 9,
+    "deskripsi": "Banyak meja dan kursi dengan colokan tersebar di berbagai sudut ruangan. Buka sampai tengah malam.",
+    "sumber": "https://erctrans.com/tempat-nugas-di-malang/",
+    "gambar": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800"
+  },
+  {
+    "id": "c013",
+    "nama": "8 Oz Coffee Studio",
+    "area": "Blimbing",
+    "kampusTerdekat": [
+      "BINUS",
+      "Poltekkes"
+    ],
+    "alamat": "Jl. Citandui No. 74, Purwantoro, Blimbing, Kota Malang",
+    "jamBuka": "08.00 - 21.00",
+    "buka24Jam": false,
+    "hargaMin": 14000,
+    "hargaMax": 31000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "AC",
+      "Smoking Area",
+      "Toilet"
+    ],
+    "skorNugas": 8,
+    "deskripsi": "Memisahkan area merokok dan bebas rokok dengan jelas. Tutup lebih awal dibanding cafe lain.",
+    "sumber": "https://erctrans.com/tempat-nugas-di-malang/",
+    "gambar": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800"
+  },
+  {
+    "id": "c014",
+    "nama": "Golden Heritage",
+    "area": "Karangbesuki",
+    "kampusTerdekat": [
+      "ITN",
+      "Ma Chung",
+      "UNMER"
+    ],
+    "alamat": "Jl. Raya Tidar No. 36, Karangbesuki, Sukun, Kota Malang",
+    "jamBuka": "07.00 - 20.30",
+    "buka24Jam": false,
+    "hargaMin": 17000,
+    "hargaMax": 38000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "AC",
+      "Parkir Luas",
+      "Toilet"
+    ],
+    "skorNugas": 8,
+    "deskripsi": "Bangunan dua lantai dengan banyak pilihan tempat duduk. Tutup setiap hari Selasa.",
+    "sumber": "https://erctrans.com/tempat-nugas-di-malang/",
+    "gambar": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800"
+  },
+  {
+    "id": "c015",
+    "nama": "DW Coffee Shop",
+    "area": "Sumbersari",
+    "kampusTerdekat": [
+      "UB",
+      "UM"
+    ],
+    "alamat": "Jl. Bogor No. 11, Sumbersari, Lowokwaru, Kota Malang",
+    "jamBuka": "07.00 - 20.00",
+    "buka24Jam": false,
+    "hargaMin": 10000,
+    "hargaMax": 22000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "Toilet"
+    ],
+    "skorNugas": 7,
+    "deskripsi": "Harganya terjangkau untuk mahasiswa dan buka sejak pukul tujuh pagi. Tutup lebih awal pada malam hari.",
+    "sumber": "https://erctrans.com/tempat-nugas-di-malang/",
+    "gambar": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800"
+  },
+  {
+    "id": "c016",
+    "nama": "Bureau Coffee",
+    "area": "Soekarno-Hatta",
+    "kampusTerdekat": [
+      "Polinema",
+      "UB"
+    ],
+    "alamat": "Jl. Soekarno Hatta No. 509, Lowokwaru, Kota Malang",
+    "jamBuka": "09.00 - 22.00",
+    "buka24Jam": false,
+    "hargaMin": 18000,
+    "hargaMax": 42000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "AC",
+      "Mushola",
+      "Smoking Area",
+      "Parkir Luas",
+      "Toilet"
+    ],
+    "skorNugas": 9,
+    "deskripsi": "Fasilitasnya paling lengkap: colokan, area merokok terpisah, mushola, dan parkir luas. Berada di jalur utama Suhat.",
+    "sumber": "https://erctrans.com/tempat-nugas-di-malang/",
+    "gambar": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800"
+  },
+  {
+    "id": "c017",
+    "nama": "Kopi.Pisan",
+    "area": "Klojen",
+    "kampusTerdekat": [
+      "UM",
+      "UNMER"
+    ],
+    "alamat": "Jl. Brigjend Slamet Riadi No. 190, Klojen, Kota Malang",
+    "jamBuka": "08.00 - 22.00",
+    "buka24Jam": false,
+    "hargaMin": 14000,
+    "hargaMax": 30000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "Outdoor",
+      "Toilet"
+    ],
+    "skorNugas": 7,
+    "deskripsi": "Bangunan dua lantai dengan balkon menghadap kota. Suasananya tenang pada jam kerja.",
+    "sumber": "https://erctrans.com/tempat-nugas-di-malang/",
+    "gambar": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=800"
+  },
+  {
+    "id": "c018",
+    "nama": "Indigo Cafe & Bistro",
+    "area": "Dau",
+    "kampusTerdekat": [
+      "UMM"
+    ],
+    "alamat": "Jl. Raya Dermo Kav. 164, Dau, Kabupaten Malang",
+    "jamBuka": "11.00 - 01.00",
+    "buka24Jam": false,
+    "hargaMin": 16000,
+    "hargaMax": 35000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "Outdoor",
+      "Parkir Luas",
+      "Toilet"
+    ],
+    "skorNugas": 8,
+    "deskripsi": "Cafe outdoor dengan area luas. Dekat kampus UMM, buka sampai dini hari.",
+    "sumber": "https://erctrans.com/tempat-nugas-di-malang/",
+    "gambar": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=800"
+  },
+  {
+    "id": "c019",
+    "nama": "Gartenhaus Co",
+    "area": "Jatimulyo",
+    "kampusTerdekat": [
+      "UB",
+      "BINUS"
+    ],
+    "alamat": "Jl. Kenanga Indah No. 1, Jatimulyo, Lowokwaru, Kota Malang",
+    "jamBuka": "10.00 - 23.00",
+    "buka24Jam": false,
+    "hargaMin": 17000,
+    "hargaMax": 37000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "AC",
+      "Outdoor",
+      "Parkir Luas",
+      "Toilet"
+    ],
+    "skorNugas": 9,
+    "deskripsi": "Berkonsep ruang kerja bersama dengan area outdoor penuh tanaman. Tutup setiap hari Senin.",
+    "sumber": "https://erctrans.com/tempat-nugas-di-malang/",
+    "gambar": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=800"
+  },
+  {
+    "id": "c020",
+    "nama": "7 Seven Chicken Suhat",
+    "area": "Soekarno-Hatta",
+    "kampusTerdekat": [
+      "Polinema",
+      "UB"
+    ],
+    "alamat": "Ruko Jl. Soekarno Hatta No. 33, Lowokwaru, Kota Malang",
+    "jamBuka": "24 Jam",
+    "buka24Jam": true,
+    "hargaMin": 12000,
+    "hargaMax": 28000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "AC",
+      "Mushola",
+      "Parkir Luas",
+      "Toilet"
+    ],
+    "skorNugas": 10,
+    "deskripsi": "Buka 24 jam setiap hari. Menyediakan ruang pertemuan dan mushola, jadi andalan saat mengejar tenggat tugas.",
+    "sumber": "https://erctrans.com/tempat-nugas-di-malang/",
+    "gambar": "https://images.unsplash.com/photo-1559496417-e7f25cb247f3?w=800"
+  },
+  {
+    "id": "c021",
+    "nama": "Oase Cafe & Literacy",
+    "area": "Merjosari",
+    "kampusTerdekat": [
+      "UIN",
+      "UB"
+    ],
+    "alamat": "Jl. Joyo Utomo V, Merjosari, Lowokwaru, Kota Malang",
+    "jamBuka": "09.00 - 01.00",
+    "buka24Jam": false,
+    "hargaMin": 11000,
+    "hargaMax": 25000,
+    "fasilitas": [
+      "WiFi",
+      "Colokan",
+      "Mushola",
+      "Outdoor",
+      "Toilet"
+    ],
+    "skorNugas": 9,
+    "deskripsi": "Bangunan tiga lantai dengan koleksi buku yang bisa dibaca di tempat. Buka sampai pukul satu dini hari.",
+    "sumber": "https://erctrans.com/tempat-nugas-di-malang/",
+    "gambar": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800"
+  }
+]
