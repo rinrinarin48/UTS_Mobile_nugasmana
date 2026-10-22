@@ -2,21 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../models/cafe.dart';
 
-/// Pembuka lokasi cafe di aplikasi Google Maps.
-///
-/// Tujuan dikirim sebagai nama dan alamat asli cafe, bukan koordinat.
-/// Dengan begitu Google Maps sendiri yang menentukan titik lokasinya
-/// berdasarkan data tempat yang terdaftar, sehingga rutenya mengarah ke
-/// bangunan yang benar.
+
 class MapsService {
-  /// Menyusun kata kunci pencarian dari nama dan alamat cafe.
+  
   static String _kueri(Cafe cafe) =>
       Uri.encodeComponent('${cafe.nama}, ${cafe.alamat}');
 
-  /// Membuka rute menuju sebuah cafe di Google Maps.
-  ///
-  /// [modeJalan] dapat diisi 'driving', 'two-wheeler', 'walking',
-  /// 'bicycling', atau 'transit'. Nilai bawaan adalah 'driving'.
+  
   static Future<void> bukaRute(
     BuildContext context,
     Cafe cafe, {

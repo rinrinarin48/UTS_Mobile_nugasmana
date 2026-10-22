@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import '../theme/app_theme.dart';
 
-/// Badge fasilitas berbentuk pil, contoh: WiFi, Colokan, AC.
 class BadgeFasilitas extends StatelessWidget {
   final String label;
   final bool sorot;
 
   const BadgeFasilitas({super.key, required this.label, this.sorot = false});
 
-  /// Memilih ikon yang sesuai dengan nama fasilitas.
+
   static IconData ikonUntuk(String nama) {
     switch (nama.toLowerCase()) {
       case 'wifi':
@@ -61,10 +60,6 @@ class BadgeFasilitas extends StatelessWidget {
   }
 }
 
-/// Lencana skor kecocokan untuk nugas.
-///
-/// Menggantikan rating bintang, karena rating tidak dapat diverifikasi.
-/// Skor dihitung dari kelengkapan fasilitas dan jam buka.
 class BadgeSkorNugas extends StatelessWidget {
   final int skor;
   final bool ringkas;
@@ -98,9 +93,6 @@ class BadgeSkorNugas extends StatelessWidget {
   }
 }
 
-/// Gambar cafe dengan penanganan error.
-/// Bila gambar dari internet gagal dimuat, ditampilkan placeholder berikon kopi
-/// sehingga aplikasi tetap dapat dijalankan tanpa koneksi internet.
 class GambarCafe extends StatelessWidget {
   final String url;
   final double? lebar;
@@ -157,7 +149,6 @@ class GambarCafe extends StatelessWidget {
   }
 }
 
-/// Judul bagian dengan tautan opsional di sebelah kanan.
 class JudulBagian extends StatelessWidget {
   final String judul;
   final VoidCallback? onLihatSemua;

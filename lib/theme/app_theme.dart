@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-/// Kumpulan token warna aplikasi NugasMana.
-/// Nilai warna diambil langsung dari sistem desain yang dibuat di Figma.
 class AppColors {
   static const Color kopi = Color(0xFF4E342E); // primary / dark brown
   static const Color latte = Color(0xFF7B5E57); // primary light
@@ -14,7 +12,6 @@ class AppColors {
   static const Color teksSekunder = Color(0xFF8A7968);
 }
 
-/// Konfigurasi tema global aplikasi.
 class AppTheme {
   static ThemeData get theme {
     return ThemeData(
@@ -26,9 +23,7 @@ class AppTheme {
         secondary: AppColors.jeruk,
         surface: AppColors.putih,
       ),
-      // Huruf Poppins diambil dari package google_fonts dan diterapkan
-      // sebagai fontFamily global, sehingga seluruh teks pada aplikasi
-      // memakainya tanpa perlu menyebutkannya satu per satu.
+      
       fontFamily: GoogleFonts.poppins().fontFamily,
       textTheme: const TextTheme(
         headlineLarge: TextStyle(
@@ -58,7 +53,6 @@ class AppTheme {
     );
   }
 
-  /// Radius dan bayangan standar untuk kartu.
   static BorderRadius get radiusKartu => BorderRadius.circular(16);
 
   static List<BoxShadow> get bayanganKartu => [

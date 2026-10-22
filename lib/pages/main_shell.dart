@@ -11,7 +11,6 @@ import 'cafe_list_page.dart';
 import 'cafe_detail_page.dart';
 import 'login_page.dart';
 
-/// Kerangka utama aplikasi yang memuat BottomNavigationBar.
 class MainShell extends StatefulWidget {
   const MainShell({super.key});
 
@@ -79,7 +78,7 @@ class _MainShellState extends State<MainShell> {
   }
 }
 
-/// Tab Jelajah: pintasan ke setiap kategori dan daftar kampus.
+
 class _JelajahPage extends StatelessWidget {
   const _JelajahPage();
 
@@ -194,8 +193,7 @@ class _JelajahPage extends StatelessWidget {
   }
 }
 
-/// Tab Favorit: menampilkan cafe yang ditandai pengguna.
-/// Daftar diperbarui otomatis melalui ValueListenableBuilder.
+
 class _FavoritPage extends StatelessWidget {
   const _FavoritPage();
 
@@ -274,7 +272,6 @@ class _FavoritPage extends StatelessWidget {
   }
 }
 
-/// Tampilan ketika belum ada cafe yang difavoritkan.
 class _FavoritKosong extends StatelessWidget {
   const _FavoritKosong();
 
@@ -317,7 +314,6 @@ class _FavoritKosong extends StatelessWidget {
   }
 }
 
-/// Tab Profil: menampilkan informasi akun dan tombol masuk atau keluar.
 class _ProfilPage extends StatelessWidget {
   const _ProfilPage();
 

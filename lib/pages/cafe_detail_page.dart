@@ -5,9 +5,7 @@ import '../services/maps_service.dart';
 import '../widgets/common_widgets.dart';
 import '../widgets/favorite_button.dart';
 
-/// HALAMAN 3 - DETAIL CAFE
-/// Menampilkan informasi lengkap sebuah cafe: foto, alamat, jam buka,
-/// kisaran harga, fasilitas, deskripsi, dan galeri.
+
 class CafeDetailPage extends StatelessWidget {
   final Cafe cafe;
 
@@ -151,7 +149,7 @@ class CafeDetailPage extends StatelessWidget {
     );
   }
 
-  /// Blok skor kecocokan untuk nugas.
+  
   Widget _buildSkorNugas() {
     return Container(
       width: double.infinity,
@@ -251,8 +249,7 @@ class CafeDetailPage extends StatelessWidget {
     );
   }
 
-  /// Menampilkan tautan artikel sumber data cafe ini, agar informasinya
-  /// dapat ditelusuri kembali oleh pengguna.
+  
   Widget _buildSumber(BuildContext context) {
     return GestureDetector(
       onTap: () => MapsService.bukaSumber(context, cafe),
@@ -286,7 +283,7 @@ class CafeDetailPage extends StatelessWidget {
     return Text(teks, style: Theme.of(context).textTheme.titleMedium);
   }
 
-  /// Tombol kembali dan tombol favorit di atas foto.
+  
   Widget _buildTombolAtas(BuildContext context) {
     return Positioned(
       top: 44,
@@ -320,7 +317,7 @@ class CafeDetailPage extends StatelessWidget {
     );
   }
 
-  /// Tombol utama yang menempel di bagian bawah layar.
+  
   Widget _buildTombolBawah(BuildContext context) {
     return Positioned(
       left: 0,

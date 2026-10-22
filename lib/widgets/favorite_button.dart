@@ -3,14 +3,10 @@ import '../models/cafe.dart';
 import '../services/favorite_service.dart';
 import '../theme/app_theme.dart';
 
-/// Tombol favorit berbentuk hati.
-///
-/// Menggunakan ValueListenableBuilder agar ikon langsung berubah di seluruh
-/// halaman begitu status favorit diperbarui, tanpa perlu memuat ulang halaman.
 class TombolFavorit extends StatelessWidget {
   final Cafe cafe;
 
-  /// Gaya bulat dengan latar gelap, dipakai di atas foto halaman detail.
+
   final bool gayaBulat;
 
   const TombolFavorit({

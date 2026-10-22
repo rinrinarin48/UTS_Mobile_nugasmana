@@ -9,9 +9,7 @@ import '../widgets/common_widgets.dart';
 import 'cafe_list_page.dart';
 import 'cafe_detail_page.dart';
 
-/// HALAMAN 1 - BERANDA
-/// Menampilkan sapaan, kolom pencarian, daftar kategori, carousel cafe
-/// favorit, dan daftar cafe berdasarkan kampus terdekat.
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -22,11 +20,10 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   String _kampusTerpilih = 'Semua';
 
-  /// Daftar kampus diambil dari model Kampus agar seluruh perguruan tinggi
-  /// di Kota Malang ikut tercakup.
+  
   final List<String> _daftarKampus = Kampus.kodeUntukFilter;
 
-  /// Navigasi ke halaman daftar cafe menggunakan Navigator.push.
+  
   void _bukaDaftar({Kategori? kategori, String? judul, String? kampus}) {
     Navigator.push(
       context,
@@ -40,7 +37,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  /// Navigasi ke halaman detail cafe.
+  
   void _bukaDetail(Cafe cafe) {
     Navigator.push(
       context,
@@ -74,7 +71,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  /// Kartu keterangan singkat kampus yang sedang dipilih.
+  
   Widget _buildInfoKampus() {
     final kampus = Kampus.cariKode(_kampusTerpilih);
     if (kampus == null) return const SizedBox.shrink();
@@ -135,8 +132,6 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  /// Menampilkan pesan kesalahan agar penyebab masalah terlihat jelas,
-  /// tidak tersembunyi di balik indikator loading.
   Widget _pesanError(Object? error) {
     return Padding(
       padding: const EdgeInsets.all(20),
@@ -174,7 +169,6 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  /// Bagian header berwarna cokelat dengan sapaan dan kolom pencarian.
   Widget _buildHeader() {
     return Container(
       width: double.infinity,
@@ -241,7 +235,6 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  /// Baris kategori yang dapat digeser secara horizontal.
   Widget _buildKategori() {
     return SizedBox(
       height: 92,
@@ -310,8 +303,6 @@ class _HomePageState extends State<HomePage> {
         return Icons.local_cafe_rounded;
     }
   }
-
-  /// Carousel cafe dengan skor nugas tertinggi.
   Widget _buildCarouselFavorit() {
     return FutureBuilder<List<Cafe>>(
       future: CafeService.ambilFavorit(jumlah: 5),
@@ -342,7 +333,6 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  /// Chip filter kampus.
   Widget _buildFilterKampus() {
     return SizedBox(
       height: 34,
@@ -381,7 +371,6 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  /// Daftar cafe sesuai kampus yang dipilih.
   Widget _buildDaftarKampus() {
     return FutureBuilder<List<Cafe>>(
       future: CafeService.ambilBerdasarKampus(_kampusTerpilih),

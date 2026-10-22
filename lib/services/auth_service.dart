@@ -1,32 +1,21 @@
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// Pengelola sesi login pengguna.
-///
-/// Pada tahap ini proses login masih disimulasikan di dalam aplikasi
-/// (belum terhubung ke server). Data akun disimpan di perangkat sehingga
-/// pengguna tidak perlu login ulang setiap membuka aplikasi.
-///
-/// Pada tahap pengembangan berikutnya, metode [login] dan [daftar] cukup
-/// diganti dengan permintaan HTTP ke endpoint autentikasi.
 class AuthService {
   static const String _kunciNama = 'pengguna_nama';
   static const String _kunciEmail = 'pengguna_email';
   static const String _kunciSandi = 'pengguna_sandi';
   static const String _kunciMasuk = 'pengguna_masuk';
 
-  /// Akun contoh agar aplikasi dapat langsung diuji tanpa mendaftar.
   static const String emailDemo = 'mahasiswa@malang.ac.id';
   static const String sandiDemo = '123456';
 
-  /// Status login yang dapat dipantau oleh widget.
   static final ValueNotifier<bool> sudahMasuk = ValueNotifier<bool>(false);
 
-  /// Nama dan email pengguna yang sedang masuk.
   static String namaPengguna = 'Mahasiswa';
   static String emailPengguna = '';
 
-  /// Memuat status login dari penyimpanan perangkat.
+
   static Future<void> muat() async {
     final prefs = await SharedPreferences.getInstance();
     sudahMasuk.value = prefs.getBool(_kunciMasuk) ?? false;
@@ -34,8 +23,6 @@ class AuthService {
     emailPengguna = prefs.getString(_kunciEmail) ?? '';
   }
 
-  /// Memproses login. Mengembalikan pesan kesalahan bila gagal,
-  /// atau null bila berhasil.
   static Future<String?> login(String email, String sandi) async {
     // Jeda singkat untuk meniru proses permintaan ke server.
     await Future.delayed(const Duration(milliseconds: 600));
@@ -63,7 +50,6 @@ class AuthService {
     return null;
   }
 
-  /// Mendaftarkan akun baru pada perangkat.
   static Future<String?> daftar(
     String nama,
     String email,
@@ -87,7 +73,6 @@ class AuthService {
     return null;
   }
 
-  /// Keluar dari akun. Daftar favorit tetap tersimpan.
   static Future<void> keluar() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool(_kunciMasuk, false);

@@ -4,10 +4,8 @@ import 'services/auth_service.dart';
 import 'services/favorite_service.dart';
 import 'theme/app_theme.dart';
 
-/// Titik masuk aplikasi NugasMana.
+
 Future<void> main() async {
-  // Diperlukan karena data favorit dan sesi login dibaca dari penyimpanan
-  // perangkat sebelum tampilan pertama dibangun.
   WidgetsFlutterBinding.ensureInitialized();
 
   await FavoriteService.muat();

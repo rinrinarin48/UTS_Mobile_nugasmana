@@ -4,7 +4,6 @@ import '../theme/app_theme.dart';
 import 'common_widgets.dart';
 import 'favorite_button.dart';
 
-/// Kartu besar untuk carousel "Paling Favorit" di halaman beranda.
 class KartuCafeBesar extends StatelessWidget {
   final Cafe cafe;
   final VoidCallback onTap;
@@ -96,7 +95,6 @@ class KartuCafeBesar extends StatelessWidget {
   }
 }
 
-/// Kartu ringkas untuk daftar vertikal (halaman beranda bagian bawah).
 class KartuCafeRingkas extends StatelessWidget {
   final Cafe cafe;
   final VoidCallback onTap;
@@ -180,7 +178,6 @@ class KartuCafeRingkas extends StatelessWidget {
   }
 }
 
-/// Kartu lengkap untuk halaman daftar cafe.
 class KartuCafeDaftar extends StatelessWidget {
   final Cafe cafe;
   final VoidCallback onTap;

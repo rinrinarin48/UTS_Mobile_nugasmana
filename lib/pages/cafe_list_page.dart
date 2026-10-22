@@ -5,9 +5,6 @@ import '../theme/app_theme.dart';
 import '../widgets/cafe_card.dart';
 import 'cafe_detail_page.dart';
 
-/// HALAMAN 2 - DAFTAR CAFE
-/// Menampilkan daftar cafe hasil penyaringan berdasarkan kategori atau kampus,
-/// lengkap dengan pilihan pengurutan.
 class CafeListPage extends StatefulWidget {
   final Kategori? kategori;
   final String judul;
@@ -32,7 +29,6 @@ class _CafeListPageState extends State<CafeListPage> {
     'Buka Paling Lama',
   ];
 
-  /// Mengambil data sesuai kategori / kampus, lalu mengurutkannya.
   Future<List<Cafe>> _ambilData() async {
     List<Cafe> hasil;
     if (widget.kategori != null) {

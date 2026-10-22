@@ -1,13 +1,3 @@
-/// Model data sebuah cafe / tempat nugas.
-///
-/// Struktur model ini sengaja dibuat mengikuti format JSON agar pada tahap
-/// pengembangan berikutnya data dapat langsung diambil dari API tanpa perlu
-/// mengubah halaman-halaman yang sudah ada.
-///
-/// Catatan: hanya field yang dapat ditelusuri sumbernya yang disimpan di sini.
-/// Rating bintang dan angka kecepatan WiFi sengaja tidak dipakai karena tidak
-/// dapat diverifikasi, dan digantikan oleh [skorNugas] yang dihitung dari
-/// fasilitas serta jam buka.
 class Cafe {
   final String id;
   final String nama;
@@ -20,14 +10,13 @@ class Cafe {
   final int hargaMax;
   final List<String> fasilitas;
 
-  /// Skor kecocokan untuk nugas, nilai 5 sampai 10.
-  /// Dihitung dari kelengkapan fasilitas dan jam buka, bukan angka karangan.
+
   final int skorNugas;
 
   final String deskripsi;
   final String gambar;
 
-  /// Tautan artikel yang menjadi sumber data cafe ini.
+  
   final String sumber;
 
   const Cafe({
@@ -47,7 +36,6 @@ class Cafe {
     required this.sumber,
   });
 
-  /// Mengubah satu objek JSON menjadi objek Cafe.
   factory Cafe.fromJson(Map<String, dynamic> json) {
     return Cafe(
       id: json['id'] as String,
@@ -67,8 +55,7 @@ class Cafe {
     );
   }
 
-  /// Mengubah objek Cafe kembali menjadi JSON.
-  /// Berguna nanti saat mengirim data ke API (POST / PUT).
+  
   Map<String, dynamic> toJson() => {
         'id': id,
         'nama': nama,
@@ -86,15 +73,15 @@ class Cafe {
         'sumber': sumber,
       };
 
-  /// Teks kisaran harga yang sudah diformat, contoh: "Rp 15rb - 35rb".
+
   String get kisaranHarga =>
       'Rp ${(hargaMin / 1000).round()}rb - ${(hargaMax / 1000).round()}rb';
 
-  /// Teks kisaran harga versi panjang untuk halaman detail.
+  
   String get kisaranHargaPanjang =>
       'Rp ${_format(hargaMin)} - Rp ${_format(hargaMax)}';
 
-  /// Keterangan singkat untuk skor nugas.
+  
   String get keteranganSkor {
     if (skorNugas >= 9) return 'Sangat cocok untuk nugas lama';
     if (skorNugas >= 7) return 'Cocok untuk nugas beberapa jam';
@@ -112,12 +99,6 @@ class Cafe {
   }
 }
 
-/// Daftar kategori yang ditampilkan di halaman beranda.
-///
-/// Setiap kategori menyaring data dari field yang sama, sehingga seluruh
-/// halaman tetap bersumber pada satu kumpulan data. Semua syarat penyaringan
-/// hanya memakai informasi yang dapat diverifikasi, yaitu fasilitas,
-/// jam buka, dan kisaran harga.
 class Kategori {
   final String nama;
   final String ikon;

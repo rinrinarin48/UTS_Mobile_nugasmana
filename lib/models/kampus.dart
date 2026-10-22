@@ -1,11 +1,8 @@
-/// Daftar perguruan tinggi di Kota Malang yang dijadikan acuan
-/// pada filter "Dekat Kampus".
 class Kampus {
   final String kode;
   final String namaLengkap;
   final String alamat;
 
-  /// Keterangan singkat mengenai keunggulan atau ciri khas kampus.
   final String keterangan;
 
   final bool negeri;
@@ -18,7 +15,7 @@ class Kampus {
     required this.negeri,
   });
 
-  /// Perguruan tinggi negeri dan kedinasan.
+  
   static const List<Kampus> negeriDanKedinasan = [
     Kampus(
       kode: 'UB',
@@ -57,7 +54,7 @@ class Kampus {
     ),
   ];
 
-  /// Perguruan tinggi swasta.
+  
   static const List<Kampus> swasta = [
     Kampus(
       kode: 'UMM',
@@ -103,14 +100,14 @@ class Kampus {
     ),
   ];
 
-  /// Gabungan seluruh kampus.
+
   static List<Kampus> get semua => [...negeriDanKedinasan, ...swasta];
 
-  /// Daftar kode kampus untuk chip filter, diawali pilihan "Semua".
+  
   static List<String> get kodeUntukFilter =>
       ['Semua', ...semua.map((k) => k.kode)];
 
-  /// Mencari data kampus berdasarkan kodenya.
+  
   static Kampus? cariKode(String kode) {
     for (final k in semua) {
       if (k.kode == kode) return k;

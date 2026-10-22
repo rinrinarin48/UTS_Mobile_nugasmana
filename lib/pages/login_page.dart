@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import '../services/auth_service.dart';
 import '../theme/app_theme.dart';
 
-/// HALAMAN LOGIN
-/// Menyediakan dua mode dalam satu halaman: masuk dan daftar akun baru.
+
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
@@ -52,11 +51,10 @@ class _LoginPageState extends State<LoginPage> {
       _pesanError = hasil;
     });
 
-    // Bila berhasil, kembali ke halaman sebelumnya.
     if (hasil == null) Navigator.pop(context);
   }
 
-  /// Mengisi kolom dengan akun contoh untuk mempermudah pengujian.
+  
   void _isiAkunDemo() {
     setState(() {
       _modeDaftar = false;
