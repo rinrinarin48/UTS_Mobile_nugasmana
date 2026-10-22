@@ -21,6 +21,7 @@ dependencies:
 
   # Dipakai pada tahap pengembangan berikutnya (integrasi API)
   http: ^1.2.0
+  google_fonts: ^9.0.0
 
 dev_dependencies:
   flutter_test:
