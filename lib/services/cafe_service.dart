@@ -10,7 +10,7 @@ class CafeService {
   // static const String _urlApi =
   //     'https://raw.githubusercontent.com/username/nugasmana/main/data/cafes.json';
 
-
+  
   static List<Cafe>? _cache;
 
   
